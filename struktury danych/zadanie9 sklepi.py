@@ -13,8 +13,9 @@ for k, v in produkty.items():
 produkt = input("Zachęcamy do zakupów. Co podać? [Wpisz: end by zakończyc zakupy] ")
 ile = float(input(f"Ile kg {produkt} podać? "))
 
-cena_za_zakup = ile * produkty[produkt]
+koszt_10 = ile * produkty[produkt]
+koszt1 = ile * produkty[produkt]
 
-print(f"Proszę o: {cena_za_zakup} PLN")
+print(f"Proszę o: {koszt_10} PLN")
 
-
+print(globals())
